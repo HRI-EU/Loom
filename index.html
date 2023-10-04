@@ -6,7 +6,7 @@
         content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
   <meta name="keywords" content="Robot, LLM, Planning">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SMILE: Robot Planning</title>
+  <title>Robot Planning</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -28,7 +28,7 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
@@ -57,7 +57,7 @@
     </div>
 
   </div>
-</nav>
+</nav> -->
 
 
 <section class="hero">
@@ -68,38 +68,38 @@
           <h1 class="title is-1 publication-title">Corrective Planning of Robot Manipulation Actions with Large Language Models</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a >Frank Joublin</aspan>, 
+              Frank Joublin, 
             <span class="author-block">
-              <a href="">Antonello Ceravola</a>, 
+              Antonello Ceravola, 
             <span class="author-block">
-              <a href="">Pavel Smirnov</a>,
+              Pavel Smirnov,
             </span>
             <span class="author-block">
-              <a href="">Felix Ocker</a>,
+              Felix Ocker,
             </span>
             <span class="author-block">
-              <a href="">Joerg Deigmoeller</a>,
+              Joerg Deigmoeller,
             </span>
             <span class="author-block">
-              <a href="">Anna Belardinelli</a>,
+              Anna Belardinelli,
             </span>
             </span>
             <span class="author-block">
-              <a href="">Chao Wang</a>,
+              Chao Wang,
             </span>
             <span class="author-block">
-              <a href="">Stephan Hasler</a>,
+              Stephan Hasler,
             </span>
             <span class="author-block">
-              <a href="">Daniel Tanneberg</a>,
+              Daniel Tanneberg,
             </span>
             <span class="author-block">
-              <a href="">Michael Gienger</a>,
+              Michael Gienger
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <a class="author-block" href="https://www.honda-ri.de/">Honda Research Insititute EU</a>
+            <a class="author-block" href="https://www.honda-ri.de/" target="_blank">Honda Research Insititute EU</a>
           </div>
 
           <div class="column has-text-centered">
@@ -141,7 +141,7 @@
                       <i class="fab fa-github"></i>
                   </span>
                   <span>Code</span>
-                  </a>
+                </a>
               </span>
               <!-- Dataset Link. -->
               <span class="link-block">
@@ -151,7 +151,7 @@
                       <i class="far fa-images"></i>
                   </span>
                   <span>Data</span>
-                  </a>
+                </a>
             </div>
 
           </div>
@@ -168,7 +168,7 @@
         <source src="./static/videos/ICRA24_1103_VI_i.mp4" type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">SMILE</span> Corrective Planning of Robot Actions with Large Language Models
+        Corrective Planning of Robot Actions with Large Language Models
       </h2>
     </div>
   </div>
@@ -252,136 +252,6 @@
     <!--/ Paper video. -->
   </div>
 </section>
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-
-      <!-- Visual Effects. -->
-      <div class="column">
-        <div class="content">
-          <h2 class="title is-3">Visual Effects</h2>
-          <p>
-            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect
-            would be impossible without nerfies since it would require going through a wall.
-          </p>
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/teaser_1.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-      <!--/ Visual Effects. -->
-
-      <!-- Matting. -->
-      <div class="column">
-        <h2 class="title is-3">Matting</h2>
-        <div class="columns is-centered">
-          <div class="column content">
-            <p>
-              As a byproduct of our method, we can also solve the matting problem by ignoring
-              samples that fall outside of a bounding box during rendering.
-            </p>
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/teaser_1.webm"
-                      type="video/mp4">
-            </video>
-          </div>
-
-        </div>
-      </div>
-    </div>
-    <!--/ Matting. -->
-
-    <!-- Animation. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
- -->
-        <!-- Interpolating. -->
-        <!-- <h3 class="title is-4">Interpolating states</h3>
-        <div class="content has-text-justified">
-          <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
-          </p>
-        </div>
-        <div class="columns is-vcentered interpolation-panel">
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/start.png"
-                 class="interpolation-image"
-                 alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
-          </div>
-          <div class="column interpolation-video-column">
-            <div id="interpolation-image-wrapper">
-              Loading...
-            </div>
-            <input class="slider is-fullwidth is-large is-info"
-                   id="interpolation-slider"
-                   step="1" min="0" max="100
-                   " value="0" type="range">
-          </div>
-          <div class="column is-3 has-text-centered">
-            <img src="./static/images/end.png"
-                 class="interpolation-image"
-                 alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
-          </div>
-        </div>
-        <br/> -->
-        <!--/ Interpolating. -->
-
-        <!-- Re-rendering. -->
-        <!-- <h3 class="title is-4">Re-rendering the input video</h3>
-        <div class="content has-text-justified">
-          <p>
-            Using <span class="dnerf">Nerfies</span>, you can re-render a video from a novel
-            viewpoint such as a stabilized camera by playing back the training deformations.
-          </p>
-        </div>
-        <div class="content has-text-centered">
-          <video id="replay-video"
-                 controls
-                 muted
-                 preload
-                 playsinline
-                 width="75%">
-            <source src="./static/videos/push_with_bottle.mp4"
-                    type="video/mp4">
-          </video>
-        </div> -->
-        <!--/ Re-rendering. -->
-
-      <!-- </div>
-    </div> -->
-    <!--/ Animation. -->
-
-
-    <!-- Concurrent Work. -->
-    <!-- <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            Please checkout our related research.
-          </p>
-
-          <p>
-            <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=TUEFo84AAAAJ&sortby=pubdate&citation_for_view=TUEFo84AAAAJ:0N-VGjzr574C">Explainable Human-Robot Training and Cooperation with Augmented Reality</a>
-          </p>
-        </div>
-      </div>
-    </div> -->
-    <!--/ Concurrent Work. -->
-
-  <!-- </div>
-</section> -->
-
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
