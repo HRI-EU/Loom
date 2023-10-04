@@ -7,7 +7,7 @@ $(document).ready(function() {
     var options = {
 			slidesToScroll: 1,
 			slidesToShow: 2,
-			loop: true,
+			loop: false,
 			infinite: false,
 			autoplay: false,
 			autoplaySpeed: 8000,
