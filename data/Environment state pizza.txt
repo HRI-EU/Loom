@@ -1,0 +1,690 @@
+{
+  "lab": {
+    "type": "room",
+    "holdsObject": [
+      "table"
+    ]
+  },
+  "robot": {
+    "type": "robot",
+    "holdsObject": [
+      "gaze",
+      "hand_left",
+      "hand_right"
+    ],
+    "isHeldByObject": [
+      "lab"
+    ]
+  },
+  "gaze": {
+    "fovea": [
+      "table"
+    ],
+    "perif": [
+      "pizza_dough_big_plate",
+      "mozzarella_cheese_bowl",
+      "garlic_bowl",
+      "italian_seasoning_bowl",
+      "fresh_basil_leaves_bowl",
+      "parmesan_cheese_bowl",
+      "red_onion_bowl",
+      "mushrooms_bowl",
+      "black_olives_bowl",
+      "pepperoni_slices_bowl",
+      "sausage_bowl",
+      "bacon_bowl",
+      "ham_bowl",
+      "pineapple_chunks_bowl",
+      "fresh_tomatoes_bowl",
+      "spinach_leaves_bowl",
+      "feta_cheese_bowl",
+      "goat_cheese_bowl",
+      "anchovies_bowl",
+      "grilled_chicken_bowl",
+      "sun_dried_tomatoes_bowl",
+      "artichoke_hearts_bowl",
+      "provolone_cheese_bowl",
+      "ricotta_cheese_bowl",
+      "oven",
+      "tray"
+    ],
+    "isHeldByObject": [
+      "robot"
+    ]
+  },
+  "hand_left": {
+    "type": "hand",
+    "holdsObject": [],
+    "isHeldByObject": [
+      "robot"
+    ]
+  },
+  "hand_right": {
+    "type": "hand",
+    "holdsObject": [],
+    "isHeldByObject": [
+      "robot"
+    ]
+  },
+  "tray": {
+    "type": "tray",
+    "holdsObject": [],
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "table": {
+    "type": "furniture",
+    "color": "gray",
+    "holdsObject": [
+      "pizza_dough_big_plate",
+      "mozzarella_cheese_bowl",
+      "garlic_bowl",
+      "italian_seasoning_bowl",
+      "fresh_basil_leaves_bowl",
+      "parmesan_cheese_bowl",
+      "red_onion_bowl",
+      "mushrooms_bowl",
+      "black_olives_bowl",
+      "pepperoni_slices_bowl",
+      "sausage_bowl",
+      "bacon_bowl",
+      "ham_bowl",
+      "pineapple_chunks_bowl",
+      "fresh_tomatoes_bowl",
+      "spinach_leaves_bowl",
+      "feta_cheese_bowl",
+      "goat_cheese_bowl",
+      "anchovies_bowl",
+      "grilled_chicken_bowl",
+      "sun_dried_tomatoes_bowl",
+      "artichoke_hearts_bowl",
+      "provolone_cheese_bowl",
+      "ricotta_cheese_bowl",
+      "oven",
+      "tray"
+    ],
+    "isHeldByObject": [
+      "lab"
+    ]
+  },
+  "shelf": {
+    "type": "furniture",
+    "color": "gray",
+    "holdsObject": [
+      "tomato_sauce_bottle",
+      "olive_oil_bottle",
+      "salt_bottle",
+      "peppers_bottle",
+      "bbq_sauce_bottle",
+      "pesto_sauce_bottle"
+    ],
+    "isHeldByObject": [
+      "lab"
+    ]
+  },
+  "pizza_dough": {
+    "type": "dough",
+    "holdsObject": [],
+    "holdsLiquid": [],
+    "volume": 1.0,
+    "fillLevel": 0.0,
+    "isHeldByObject": [
+      "pizza_dough_big_plate"
+    ]
+  },
+  "pizza_dough_big_plate": {
+    "type": "big_plate",
+    "holdsObject": [
+      "pizza_dough"
+    ],
+    "isHeldByObject": [
+      "table"
+    ]    
+  },
+  "tomato_sauce": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "tomato_sauce_bottle"
+    ]
+  },
+  "tomato_sauce_bottle": {
+    "type": "bottle",
+    "volume": 0.5,
+    "fillLevel": 0.5,
+    "holdsLiquid": [
+      "tomato_sauce"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ] 
+  },
+  "mozzarella_cheese": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "mozzarella_cheese_bowl"
+    ]
+  },
+  "mozzarella_cheese_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "mozzarella_cheese",
+      "mozzarella_cheese",
+      "mozzarella_cheese",
+      "mozzarella_cheese",
+      "mozzarella_cheese"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "olive_oil": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "olive_oil_bottle"
+    ]
+  },
+  "olive_oil_bottle": {
+    "type": "bottle",
+    "volume": 1,
+    "fillLevel": 1,
+    "holdsLiquid": [
+      "olive_oil"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ] 
+  },
+  "garlic": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "garlic_bowl"
+    ]
+  },
+  "garlic_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "garlic",
+      "garlic",
+      "garlic",
+      "garlic",
+      "garlic"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "salt": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "salt_bottle"
+    ]
+  },
+  "salt_bottle": {
+    "type": "bottle",
+    "holdsLiquid": [
+      "salt"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ] 
+  },
+  "italian_seasoning": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "italian_seasoning_bowl"
+    ]
+  },
+  "italian_seasoning_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "italian_seasoning",
+      "italian_seasoning",
+      "italian_seasoning",
+      "italian_seasoning",
+      "italian_seasoning"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "fresh_basil_leaves": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "fresh_basil_leaves_bowl"
+    ]
+  },
+  "fresh_basil_leaves_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "fresh_basil_leaves",
+      "fresh_basil_leaves",
+      "fresh_basil_leaves",
+      "fresh_basil_leaves",
+      "fresh_basil_leaves"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "parmesan_cheese": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "parmesan_cheese_bowl"
+    ]
+  },
+  "parmesan_cheese_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "parmesan_cheese",
+      "parmesan_cheese",
+      "parmesan_cheese",
+      "parmesan_cheese",
+      "parmesan_cheese"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "red_onion": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "red_onion_bowl"
+    ]
+  },
+  "red_onion_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "red_onion",
+      "red_onion",
+      "red_onion",
+      "red_onion",
+      "red_onion"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "peppers": {
+    "type": "peppers",
+    "isHeldByObject": [
+      "peppers_bottle"
+    ]
+  },
+  "peppers_bottle": {
+    "type": "bottle",
+    "holdsLiquid": [
+      "peppers"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ] 
+  },
+  "mushrooms": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "mushrooms_bowl"
+    ]
+  },
+  "mushrooms_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "mushrooms",
+      "mushrooms",
+      "mushrooms",
+      "mushrooms",
+      "mushrooms"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "black_olives": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "black_olives_bowl"
+    ]
+  },
+  "black_olives_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "black_olives",
+      "black_olives",
+      "black_olives",
+      "black_olives",
+      "black_olives"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "pepperoni_slices": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "pepperoni_slices_bowl"
+    ]
+  },
+  "pepperoni_slices_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "pepperoni_slices",
+      "pepperoni_slices",
+      "pepperoni_slices",
+      "pepperoni_slices",
+      "pepperoni_slices"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "sausage": {
+    "type": "sausage",
+    "isHeldByObject": [
+      "sausage_bowl"
+    ]
+  },
+  "sausage_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "sausage",
+      "sausage",
+      "sausage",
+      "sausage",
+      "sausage"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "bacon": {
+    "type": "bacon",
+    "isHeldByObject": [
+      "bacon_bowl"
+    ]
+  },
+  "bacon_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "bacon",
+      "bacon",
+      "bacon",
+      "bacon",
+      "bacon"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "ham": {
+    "type": "ham",
+    "isHeldByObject": [
+      "ham_bowl"
+    ]
+  },
+  "ham_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "ham",
+      "ham",
+      "ham",
+      "ham",
+      "ham"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "pineapple_chunks": {
+    "type": "pineapple_chunks",
+    "isHeldByObject": [
+      "pineapple_chunks_bowl"
+    ]
+  },
+  "pineapple_chunks_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "pineapple_chunks",
+      "pineapple_chunks",
+      "pineapple_chunks",
+      "pineapple_chunks",
+      "pineapple_chunks"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "fresh_tomatoes": {
+    "type": "fresh_tomatoes",
+    "isHeldByObject": [
+      "fresh_tomatoes_bowl"
+    ]
+  },
+  "fresh_tomatoes_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "fresh_tomatoes",
+      "fresh_tomatoes",
+      "fresh_tomatoes",
+      "fresh_tomatoes",
+      "fresh_tomatoes"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "spinach_leaves": {
+    "type": "spinach_leaves",
+    "isHeldByObject": [
+      "spinach_leaves_bowl"
+    ]
+  },
+  "spinach_leaves_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "spinach_leaves",
+      "spinach_leaves",
+      "spinach_leaves",
+      "spinach_leaves",
+      "spinach_leaves"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "feta_cheese": {
+    "type": "feta_cheese",
+    "isHeldByObject": [
+      "feta_cheese_bowl"
+    ]
+  },
+  "feta_cheese_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "feta_cheese",
+      "feta_cheese",
+      "feta_cheese",
+      "feta_cheese",
+      "feta_cheese"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "goat_cheese": {
+    "type": "goat_cheese",
+    "isHeldByObject": [
+      "goat_cheese_bowl"
+    ]
+  },
+  "goat_cheese_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "goat_cheese",
+      "goat_cheese",
+      "goat_cheese",
+      "goat_cheese",
+      "goat_cheese"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "anchovies": {
+    "type": "anchovies",
+    "isHeldByObject": [
+      "anchovies_bowl"
+    ]
+  },
+  "anchovies_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "anchovies",
+      "anchovies",
+      "anchovies",
+      "anchovies",
+      "anchovies"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "bbq_sauce": {
+    "type": "bbq_sauce",
+    "isHeldByObject": [
+      "bbq_sauce_bottle"
+    ]
+  },
+  "bbq_sauce_bottle": {
+    "type": "bottle",
+    "volume": 0.5,
+    "fillLevel": 0.5,
+    "holdsLiquid": [
+      "bbq_sauce"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "grilled_chicken": {
+    "type": "grilled_chicken",
+    "isHeldByObject": [
+      "grilled_chicken_bowl"
+    ]
+  },
+  "grilled_chicken_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "grilled_chicken",
+      "grilled_chicken",
+      "grilled_chicken",
+      "grilled_chicken",
+      "grilled_chicken"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "pesto_sauce": {
+    "type": "pesto_sauce",
+    "isHeldByObject": [
+      "pesto_sauce_bottle"
+    ]
+  },
+  "pesto_sauce_bottle": {
+    "type": "bottle",
+    "volume": 0.5,
+    "fillLevel": 0.5,
+    "holdsLiquid": [
+        "pesto_sauce"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "sun-dried_tomatoes": {
+    "type": "sun-dried_tomatoes",
+    "isHeldByObject": [
+      "sun-dried_tomatoes_bowl"
+    ]
+  },
+  "sun-dried_tomatoes_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "sun-dried_tomatoes",
+      "sun-dried_tomatoes",
+      "sun-dried_tomatoes",
+      "sun-dried_tomatoes",
+      "sun-dried_tomatoes"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "artichoke_hearts": {
+    "type": "artichoke_hearts",
+    "isHeldByObject": [
+      "artichoke_hearts_bowl"
+    ]
+  },
+  "artichoke_hearts_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "artichoke_hearts",
+      "artichoke_hearts",
+      "artichoke_hearts",
+      "artichoke_hearts",
+      "artichoke_hearts"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "provolone_cheese": {
+    "type": "provolone_cheese",
+    "isHeldByObject": [
+      "provolone_cheese_bowl"
+    ]
+  },
+  "provolone_cheese_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "provolone_cheese",
+      "provolone_cheese",
+      "provolone_cheese",
+      "provolone_cheese",
+      "provolone_cheese"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "ricotta_cheese": {
+      "type": "ricotta_cheese",
+      "isHeldByObject": [
+          "ricotta_cheese_bowl"
+      ]
+  },
+  "ricotta_cheese_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "ricotta_cheese",
+      "ricotta_cheese",
+      "ricotta_cheese",
+      "ricotta_cheese",
+      "ricotta_cheese"
+    ],
+    "isHeldByObject": [
+      "table"
+    ] 
+  },
+  "oven": {
+    "type": "furniture",
+    "power": "on",
+    "closure": "closed",
+    "type": "oven",
+    "holdsObject": [],
+    "isHeldByObject": [
+      "table"
+    ] 
+  }
+};

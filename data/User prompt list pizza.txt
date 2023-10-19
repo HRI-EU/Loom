@@ -1,0 +1,12 @@
+'Please, prepare Bacon and Onion Pizza',
+'Please, prepare BBQ Chicken Pizza',
+'Please, prepare Buffalo Chicken Pizza',
+'Please, prepare Four Cheese Pizza',
+'Please, prepare Hawaiian Pizza',
+'Please, prepare Margerita Pizza',
+'Please, prepare Meat Lovers Pizza',
+'Please, prepare Mushroom Pizza',
+'Please, prepare Pepperoni Pizza',
+'Please, prepare Pesto Pizza',
+
+

@@ -1,0 +1,762 @@
+{
+  "lab": {
+    "type": "room",
+    "holdsObject": [
+      "table"
+    ]
+  },
+  "robot": {
+    "type": "robot",
+    "holdsObject": [
+      "gaze",
+      "hand_left",
+      "hand_right"
+    ],
+    "isHeldByObject": [
+      "lab"
+    ]
+  },
+  "gaze": {
+    "fovea": [
+      "table"
+    ],
+    "perif": [
+      "basil_bowl",
+      "fresh_herbs_bowl",
+      "ice_cubes_bowl",
+      "lemon_slice_bowl",
+      "lime_slice_bowl",
+      "mint_bowl",
+      "orange_slice_bowl",
+      "rosemary_bowl",
+      "sugar_cubes_bowl",
+      "electric_shaker",
+      "fridge",
+      "first_glass",
+      "second_glass",
+      "third_glass",
+      "forth_glass",
+      "fifth_glass",
+      "tray"
+    ],
+    "isHeldByObject": [
+      "robot"
+    ]
+  },
+  "hand_left": {
+    "type": "hand",
+    "holdsObject": [],
+    "isHeldByObject": [
+      "robot"
+    ]
+  },
+  "hand_right": {
+    "type": "hand",
+    "holdsObject": [],
+    "isHeldByObject": [
+      "robot"
+    ]
+  },
+  "table": {
+    "type": "furniture",
+    "color": "gray",
+    "holdsObject": [
+      "basil_bowl",
+      "fresh_herbs_bowl",
+      "ice_cubes_bowl",
+      "lemon_slice_bowl",
+      "lime_slice_bowl",
+      "mint_bowl",
+      "orange_slice_bowl",
+      "rosemary_bowl",
+      "sugar_cubes_bowl",
+      "electric_shaker",
+      "mixing_container",
+      "first_glass",
+      "second_glass",
+      "third_glass",
+      "forth_glass",
+      "fifth_glass",
+      "tray"
+    ],
+    "isHeldByObject": [
+      "lab"
+    ]
+  },
+  "shelf": {
+    "type": "furniture",
+    "color": "gray",
+    "holdsObject": [
+      "bitters_bottle",
+      "brandy_bottle",
+      "coca_cola_bottle",
+      "gin_bottle",
+      "ginger_beer_bottle",
+      "grenadine_bottle",
+      "rum_bottle",
+      "salt_bottle",
+      "simple_syrup_bottle",
+      "soda_water_bottle",
+      "tequila_bottle",
+      "tonic_water_bottle",
+      "triple_sec_bottle",
+      "vermouth_bottle",
+      "vodka_bottle",
+      "whiskey_bottle"
+    ],
+    "isHeldByObject": [
+      "lab"
+    ]
+  },
+  "fridge": {
+    "type": "furniture",
+    "closure": "closed",
+    "power": "on",
+    "holdsObject": [
+      "milk_bottle",
+      "cranberry_juice_bottle",
+      "pineapple_juice_bottle",
+      "tomato_juice_bottle"
+    ],
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "basil": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "basil_bowl"
+    ],
+    "holdsObject": []
+  },
+  "basil_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "basil",
+      "basil",
+      "basil",
+      "basil",
+      "basil"
+    ],
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "bitters": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "bitters_bottle"
+    ],
+    "holdsObject": []
+  },
+  "bitters_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "bitters"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "brandy": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "brandy_bottle"
+    ],
+    "holdsObject": []
+  },
+  "brandy_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "brandy"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "coca_cola": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "coca_cola_bottle"
+    ],
+    "holdsObject": []
+  },
+  "coca_cola_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "coca_cola"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "cranberry_juice": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "cranberry_juice_bottle"
+    ],
+    "holdsObject": []
+  },
+  "cranberry_juice_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "cranberry_juice"
+    ],
+    "isHeldByObject": [
+      "fridge"
+    ]
+  },
+  "fresh_herbs": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "fresh_herbs_bowl"
+    ],
+    "holdsObject": []
+  },
+  "fresh_herbs_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "fresh_herbs",
+      "fresh_herbs",
+      "fresh_herbs",
+      "fresh_herbs",
+      "fresh_herbs"
+    ],
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "gin": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "gin_bottle"
+    ],
+    "holdsObject": []
+  },
+  "gin_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "gin"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "ginger_beer": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "ginger_beer_bottle"
+    ],
+    "holdsObject": []
+  },
+  "ginger_beer_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "ginger_beer"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "grenadine": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "grenadine_bottle"
+    ],
+    "holdsObject": []
+  },
+  "grenadine_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "grenadine"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "ice_cubes": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "ice_cubes_bowl"
+    ],
+    "holdsObject": []
+  },
+  "ice_cubes_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "ice_cubes",
+      "ice_cubes",
+      "ice_cubes",
+      "ice_cubes",
+      "ice_cubes"
+    ],
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "lemon_slice": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "lemon_slice_bowl"
+    ],
+    "holdsObject": []
+  },
+  "lemon_slice_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "lemon_slice",
+      "lemon_slice",
+      "lemon_slice",
+      "lemon_slice",
+      "lemon_slice"
+    ],
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "lime_slice": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "lime_slice_bowl"
+    ],
+    "holdsObject": []
+  },
+  "lime_slice_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "lime_slice",
+      "lime_slice",
+      "lime_slice",
+      "lime_slice",
+      "lime_slice"
+    ],
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "milk": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "milk_bottle"
+    ],
+    "holdsObject": []
+  },
+  "milk_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "milk"
+    ],
+    "isHeldByObject": [
+      "fridge"
+    ]
+  },
+  "mint": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "mint_bowl"
+    ],
+    "holdsObject": []
+  },
+  "mint_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "mint",
+      "mint",
+      "mint",
+      "mint",
+      "mint"
+    ],
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "orange_slice": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "orange_slice_bowl"
+    ],
+    "holdsObject": []
+  },
+  "orange_slice_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "orange_slice",
+      "orange_slice",
+      "orange_slice",
+      "orange_slice",
+      "orange_slice"
+    ],
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "pineapple_juice": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "pineapple_juice_bottle"
+    ],
+    "holdsObject": []
+  },
+  "pineapple_juice_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "pineapple_juice"
+    ],
+    "isHeldByObject": [
+      "fridge"
+    ]
+  },
+  "rosemary": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "rosemary_bowl"
+    ],
+    "holdsObject": []
+  },
+  "rosemary_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "rosemary",
+      "rosemary",
+      "rosemary",
+      "rosemary",
+      "rosemary"
+    ],
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "rum": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "rum_bottle"
+    ],
+    "holdsObject": []
+  },
+  "rum_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "rum"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "salt": {
+    "type": "salt",
+    "isHeldByObject": [
+      "salt_bottle"
+    ],
+    "holdsObject": []
+  },
+  "salt_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 0.5,
+    "fillLevel": 0.5,
+    "holdsLiquid": [
+      "salt"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "simple_syrup": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "simple_syrup_bottle"
+    ],
+    "holdsObject": []
+  },
+  "simple_syrup_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "simple_syrup"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "soda_water": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "soda_water_bottle"
+    ],
+    "holdsObject": []
+  },
+  "soda_water_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "soda_water"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "sugar_cubes": {
+    "type": "ingredient",
+    "isHeldByObject": [
+      "sugar_cubes_bowl"
+    ],
+    "holdsObject": []
+  },
+  "sugar_cubes_bowl": {
+    "type": "bowl",
+    "holdsObject": [
+      "sugar_cubes",
+      "sugar_cubes",
+      "sugar_cubes",
+      "sugar_cubes",
+      "sugar_cubes"
+    ],
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "tequila": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "tequila_bottle"
+    ],
+    "holdsObject": []
+  },
+  "tequila_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "tequila"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "tomato_juice": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "tomato_juice_bottle"
+    ],
+    "holdsObject": []
+  },
+  "tomato_juice_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "tomato_juice"
+    ],
+    "isHeldByObject": [
+      "fridge"
+    ]
+  },
+  "tonic_water": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "tonic_water_bottle"
+    ],
+    "holdsObject": []
+  },
+  "tonic_water_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "tonic_water"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "triple_sec": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "triple_sec_bottle"
+    ],
+    "holdsObject": []
+  },
+  "triple_sec_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "triple_sec"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "vermouth": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "vermouth_bottle"
+    ],
+    "holdsObject": []
+  },
+  "vermouth_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "vermouth"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "vodka": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "vodka_bottle"
+    ],
+    "holdsObject": []
+  },
+  "vodka_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "vodka"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "whiskey": {
+    "type": "liquid",
+    "isHeldByObject": [
+      "whiskey_bottle"
+    ],
+    "holdsObject": []
+  },
+  "whiskey_bottle": {
+    "type": "bottle",
+    "holdsObject": [],
+    "volume": 1.0,
+    "fillLevel": 1.0,
+    "holdsLiquid": [
+      "whiskey"
+    ],
+    "isHeldByObject": [
+      "shelf"
+    ]
+  },
+  "electric_shaker": {
+    "type": "furniture",
+    "power": "off",
+    "holdsObject": [
+      "mixing_container"
+    ],
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "mixing_container": {
+    "type": "mixing_container",
+    "holdsObject": [],
+    "holdsLiquid": [],
+    "volume": 1.0,
+    "fillLevel": 0.0,
+    "isHeldByObject": [
+      "electric_shaker"
+    ]
+  },
+  "first_glass": {
+    "type": "glass",
+    "holdsObject": [],
+    "holdsLiquid": [],
+    "volume": 1.0,
+    "fillLevel": 0.0,
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "second_glass": {
+    "type": "glass",
+    "holdsObject": [],
+    "holdsLiquid": [],
+    "volume": 1.0,
+    "fillLevel": 0.0,
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "third_glass": {
+    "type": "glass",
+    "holdsObject": [],
+    "holdsLiquid": [],
+    "volume": 1.0,
+    "fillLevel": 0.0,
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "forth_glass": {
+    "type": "glass",
+    "holdsObject": [],
+    "holdsLiquid": [],
+    "volume": 1.0,
+    "fillLevel": 0.0,
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "fifth_glass": {
+    "type": "glass",
+    "holdsObject": [],
+    "holdsLiquid": [],
+    "volume": 1.0,
+    "fillLevel": 0.0,
+    "isHeldByObject": [
+      "table"
+    ]
+  },
+  "tray": {
+    "type": "tray",
+    "holdsObject": [],
+    "isHeldByObject": [
+      "table"
+    ]
+  }
+};

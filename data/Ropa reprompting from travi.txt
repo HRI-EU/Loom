@@ -1,0 +1,7 @@
+Message from Travi: 
+<request>
+The detailled current environment state in JSON is:
+<state>
+Give a full plan at once taking in account 
+the current state of the environment.
+Plan:

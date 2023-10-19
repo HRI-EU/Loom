@@ -1,0 +1,17 @@
+This is Alex request: 
+<request>
+
+This is the feedback the robot gave trying to execute the last plan:
+<feedback>
+
+This is the list of actions performed by the robot up to now:
+<cmdHistory>
+
+This is the current JSON environment state:
+<state>
+
+While describing the remaining action to fullfill the human request, 
+check the list of actions performed by the robot up to now
+and do not replicate actions that where already done but instead give the 
+list of actions that are still necessary to fullfill the goal.
+Please start your answer with [Travi to Ropa]. 
