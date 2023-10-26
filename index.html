@@ -39,38 +39,6 @@
 
 <body>
 
-<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://www.honda-ri.de/">
-            HRI
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</nav> -->
-
-
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
@@ -148,7 +116,7 @@
 
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/HRI-EU/Loom/tree/main/data"
+                <a href="https://github.com/HRI-EU/Loom/tree/main#for-the-result-of-the-evaluation-please-check-here"
                    class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -314,27 +282,108 @@
             Addressing this imperative, this study contributes to the field of Large Language Models (LLMs) applied to task and motion planning for robots.
             We propose a system architecture that orchestrates a seamless interplay between multiple cognitive levels, encompassing reasoning, planning, and motion generation.
             At its core lies a novel replanning strategy that handles physically grounded, logical, and semantic errors in the generated plans.
-            We demonstrate the efficacy of the proposed feedback architecture, particularly its impact on executability, correctness, and time complexity via empirical evaluation in the context of a simulation and two intricate real-world scenarios: blocks world, barman and pizza preparation.          </p>
+            We demonstrate the efficacy of the proposed feedback architecture, particularly its impact on executability, correctness, and time complexity via empirical evaluation in the context of a simulation and two intricate real-world scenarios: blocks world, barman and pizza preparation.          
+          </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
+    <!-- Prompts. -->
     <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Full Video</h2>
-        <div class="publication-video">
+        <h2 class="title is-3">Prompts</h2>
+        <div class="content has-text-justified">
+          <embed src="./data/Alex system prompt.txt">
+          <embed src="./data/Alex system prompt.txt">
 
-          <video controls autoplay muted loop playsinline height="100%">
-            <source src="./static/videos/ICRA24_1103_VI_i.mp4" type="video/mp4">
-          </video>
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+
+</section>
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <h2 class="title is-3" style="text-align: center;">Prompts</h2>
+    <p style="text-align: center;">Beblow are the prompts used in this study, you can also check them <a style="color: rgb(80, 80, 255);" href="https://github.com/HRI-EU/Loom/tree/main/data"
+      target="_blank"> here</a>.
+    <div class="container">
+
+      <div id="results-carousel" class="carousel results-carousel">
+
+        <div class="item" width="100%" height="100%">
+          <embed width="100%" height="100%" src="./data/Alex system prompt.txt">
+          <h2 class="subtitle has-text-centered">
+            1. Alex system prompt
+          </h2>
+        </div>
+        <div class="item">
+          <embed width="100%" height="100%" src="./data/Environment state cocktail.txt">
+          <h2 class="subtitle has-text-centered">
+            2. Environment state cocktail
+          </h2>
+        </div>
+        <div class="item">
+          <embed width="100%" height="100%" src="./data/Environment state pizza.txt">
+          <h2 class="subtitle has-text-centered">
+            3. Environment state pizza
+          </h2>
+        </div>
+        <div class="item">
+          <embed width="100%" height="100%" src="./data/Ropa reprompting from travi.txt">
+          <h2 class="subtitle has-text-centered">
+            4. Ropa reprompting from travi
+          </h2>
+        </div>
+        <div class="item">
+          <embed width="100%" height="100%" src="./data/Ropa system prompt pizza.txt">
+          <h2 class="subtitle has-text-centered">
+            5. Ropa system prompt pizza
+          </h2>
+        </div>
+        <div class="item">
+          <embed width="100%" height="100%" src="./data/Travi reprompting from Alex.txt">
+          <h2 class="subtitle has-text-centered">
+            6. Travi reprompting from Alex
+          </h2>
+        </div>
+        <div class="item">
+          <embed width="100%" height="100%" src="./data/Travi reprompting from feedback.txt">
+          <h2 class="subtitle has-text-centered">
+            7. Travi reprompting from feedback
+          </h2>
+        </div>
+        <div class="item">
+          <embed width="100%" height="100%" src="./data/Travi system prompt cocktail.txt">
+          <h2 class="subtitle has-text-centered">
+            8. Travi system prompt cocktail
+          </h2>
+        </div>
+        <div class="item">
+          <embed width="100%" height="100%" src="./data/Travi system prompt pizza.txt">
+          <h2 class="subtitle has-text-centered">
+            9. Travi system prompt pizza
+          </h2>
+        </div>
+        <div class="item">
+          <embed width="100%" height="100%" src="./data/User prompt list cocktail.txt">
+          <h2 class="subtitle has-text-centered">
+            10. User prompt list cocktail
+          </h2>
+        </div>
+        <div class="item">
+          <embed width="100%" height="100%" src="./data/User prompt list pizza.txt">
+          <h2 class="subtitle has-text-centered">
+            11. User prompt list pizza
+          </h2>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
 </section>
-
 <!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
@@ -343,28 +392,23 @@
 </section> -->
 
 
-<!-- <footer class="footer">
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
+          <p>This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template">Academic Project Page Template.
+          </p>
           <p>
             This website is licensed under a <a rel="license"
                                                 href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
-          <p>
-            This means you are free to borrow the <a
-              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
-            we just ask that you link back to this page in the footer.
-            Please remember to remove the analytics code included in the header of the website which
-            you do not want on your website.
-          </p>
         </div>
       </div>
     </div>
   </div>
-</footer> -->
+</footer>
 
 </body>
 </html>
