@@ -134,4 +134,12 @@ body {
 }
 
 
-
+.best-paper-title::after {
+  content: "Best Paper Final List";
+  background-color: rgb(214, 79, 79);
+  color: #fff;
+  padding: 4px;
+  font-size: 8px;
+  border-radius: 5px;
+  margin-left: 6px;
+}
